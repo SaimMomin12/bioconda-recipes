@@ -1,5 +1,5 @@
 {% set name = "yame" %}
-{% set version = "1.41" %}
+{% set version = "1.58" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/zhou-lab/YAME/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 86da0d60c5322b2bae5aef9b6732797a5fb04601e4b9ebb5689464df0beaffb3 
+  sha256: fb876492f134f9388248f6023b5c5b250e0c7b56793590b3a10cde545c1278b1 
 
 build:
   number: 0
